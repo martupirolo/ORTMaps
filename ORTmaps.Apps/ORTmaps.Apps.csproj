@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C619EA4-3C80-49BE-9276-A023F8C6BC68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ORTmaps.Apps</RootNamespace>
+    <AssemblyName>ORTmaps.Apps</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MapaORT.Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapaORT.Menu.Designer.cs">
+      <DependentUpon>MapaORT.Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuApp.Designer.cs">
+      <DependentUpon>MenuApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlantaBaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlantaBaja.Designer.cs">
+      <DependentUpon>PlantaBaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortadaApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortadaApp.Designer.cs">
+      <DependentUpon>PortadaApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrimerPiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrimerPiso.Designer.cs">
+      <DependentUpon>PrimerPiso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SegundoPiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SegundoPiso.Designer.cs">
+      <DependentUpon>SegundoPiso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TercerPiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TercerPiso.Designer.cs">
+      <DependentUpon>TercerPiso.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MapaORT.Menu.resx">
+      <DependentUpon>MapaORT.Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuApp.resx">
+      <DependentUpon>MenuApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlantaBaja.resx">
+      <DependentUpon>PlantaBaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortadaApp.resx">
+      <DependentUpon>PortadaApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimerPiso.resx">
+      <DependentUpon>PrimerPiso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SegundoPiso.resx">
+      <DependentUpon>SegundoPiso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TercerPiso.resx">
+      <DependentUpon>TercerPiso.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portada de app ORT MAPS.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu APP.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu APP1.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
