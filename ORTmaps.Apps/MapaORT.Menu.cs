@@ -34,7 +34,7 @@ namespace ORTmaps.Apps
         {
 
             this.Hide();
-            PlantaBaja Nuevaventana = new PlantaBaja();
+            btnPBclean Nuevaventana = new btnPBclean();
             Nuevaventana.Show();//el inicio es a la pantalla a la que quiero ir y this representa esta pantalla 
         }
 

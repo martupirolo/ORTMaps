@@ -10,7 +10,7 @@ C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.
 C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.exe
 C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.pdb
 C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.MapaORT.resources
-C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.PlantaBaja.resources
 C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.TercerPiso.resources
 C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.PrimerPiso.resources
 C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.SegundoPiso.resources
+C:\Users\47572339\source\repos\ORTmaps.Apps\ORTmaps.Apps\obj\Debug\ORTmaps.Apps.btnPBclean.resources
