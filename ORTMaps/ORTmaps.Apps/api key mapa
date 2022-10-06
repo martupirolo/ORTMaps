@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ORTmaps.Apps
+{
+    public class Locations
+    {
+        public int LocationId { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+
+        public Locations(int locid, string title, string desc, double latitude, double longitude)
+        {
+            this.LocationId = locid;
+            this.Title = title;
+            this.Description = desc;
+            this.Latitude = latitude;
+            this.Longitude = longitude;
+        }
+    }
+
+    public class LocationLists
+    {
+        public IEnumerable<Locations> LocationList { get; set; }
+        public partial class Mapa : Form {}
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+                InitializeComponent();
+        }
+
+            private void InitializeComponent()
+            {
+                throw new NotImplementedException();
+            }
+
+            private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+}

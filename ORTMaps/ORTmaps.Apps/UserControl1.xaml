@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="ORTmaps.Apps.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF">
+    
+    <Grid>
+        <m:Map x:Name="Map_ORT" Margin="-410,139,-68,-364" RenderTransformOrigin="0.5,0.5">
+            <m:Map.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.178"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.33"/>
+                </TransformGroup>
+            </m:Map.RenderTransform>
+        </m:Map>
+    </Grid>
+</UserControl>
+
+    
