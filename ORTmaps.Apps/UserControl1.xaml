@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="ORTmaps.Apps.UserControl1"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF">
+
+    <Grid>
+        <m:Map CredentialsProvider="O6ITh9xG2Ph0Ql5AxEjm~jyZmdiaw-pCb1Bu3l1DH1A~ApG4jNDvx5sE1dn1pat3isq-_tkPiesgMgBlaDlptTID_UUtJvTvLb0I8GAOIyBW" Name="Map" Mode="Aerial" />
+    </Grid>
+</UserControl>

@@ -33,5 +33,11 @@ namespace ORTmaps.Apps
             MapaORT Nuevaventana = new MapaORT();
             Nuevaventana.Show();//el inicio es a la pantalla a la que quiero ir y this representa esta pantalla 
         }
+
+        private void BtnMapaMenu_Click(object sender, EventArgs e)
+        {
+            MapaExterno mapa = new MapaExterno();
+            mapa.Show();
+        }
     }
 }
